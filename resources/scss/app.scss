@@ -1,0 +1,42 @@
+@import '~bootstrap/scss/bootstrap';
+
+body{
+    font-family:'Montserrat';
+}
+
+
+header{
+    height: 60px;
+    color: white;
+}
+
+aside{
+    height: 100%;
+    width: 200px;
+    nav{
+        ul{
+            list-style:none;
+            li{
+                margin-bottom: 10px;
+            a{
+                color: white;
+                text-decoration: none;
+                font-size: .9rem;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+            }
+
+        }
+    }
+}
+
+.main-wrapper{
+    height: calc(100vh - 60px);
+}
+
+.ck-editor__editable_inline{
+    min-height: 300px;
+}
+
